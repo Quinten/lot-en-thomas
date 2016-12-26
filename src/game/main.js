@@ -2,13 +2,13 @@ var game;
 var gameData;
 
 var fontName = 'sans-serif';
-var googleFontName = 'Varela Round';
-var titleFontName = 'serif';
-var titleGoogleFontName = 'Alice';
+var googleFontName = 'Patrick Hand SC';
+var titleFontName = 'sans-serif';
+var titleGoogleFontName = 'Patrick Hand SC';
 
 WebFontConfig = {
     active: function() { fontName = googleFontName; titleFontName = titleGoogleFontName; },
-    google: { families: [ googleFontName, titleGoogleFontName ] }
+    google: { families: [ googleFontName ] }
 };
 
 var fx;
@@ -16,8 +16,8 @@ var ambient;
 var audioFallback = (Phaser.Device.isAndroidStockBrowser()) ? true : false;
 window.PhaserGlobal = { disableWebAudio: audioFallback };
 
-var colors = {normalBG: '#2c3e50', normalStroke: '#ecf0f1'};
-var tints = {normalBG: 0x2c3e50, normalStroke: 0xecf0f1};
+var colors = {normalBG: '#9cdeff', normalStroke: '#2c3e50'};
+var tints = {normalBG: 0x9cdeff, normalStroke: 0x2c3e50};
 
 window.onload = function() {
 

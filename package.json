@@ -1,11 +1,11 @@
 {
-  "name": "phaser-base",
+  "name": "lot-en-thoams",
   "version": "0.0.1",
   "author": "@quintenclause",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:Quinten/phaser-base.git"
+    "url": "git@github.com:Quinten/lot-en-thomas.git"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
