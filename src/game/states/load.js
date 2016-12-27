@@ -12,12 +12,18 @@ var loadState = {
     start: function () {
 
         // add all game assets for preloading here
-        game.load.json('gameData', 'assets/data/game.json');
         game.load.script('webfont', '//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js');
-        //game.load.image('square', 'assets/sprites/square.png');
-        //game.load.audio('sfx', 'assets/sounds/fx_mixdown.mp3');
-        //game.load.audio('ambient', ['assets/audio/ambient_mixdown.mp3', 'assets/audio/ambient_mixdown.ogg']);
-        // ...
+        game.load.audio('dream', ['assets/audio/dream.mp3', 'assets/audio/dream.ogg']);
+        game.load.image('checkers', 'assets/sprites/320x320dddddd.png');
+        game.load.image('clouds', 'assets/sprites/clouds.png');
+        game.load.image('mountain', 'assets/sprites/mountain.png');
+        game.load.image('tileborders', 'assets/sprites/tileborders.png');
+        game.load.image('lot', 'assets/sprites/lot.png');
+        game.load.image('thomas', 'assets/sprites/thomas.png');
+        game.load.image('whitesquare', 'assets/sprites/white80.png');
+        game.load.spritesheet('solvebutton', 'assets/sprites/solve_button_wide_sprite_sheet.png', 160, 30);
+        game.load.physics('physicsData', 'assets/data/physics.json');
+        game.load.json('gameData', 'assets/data/game.json');
 
         game.load.start();
 

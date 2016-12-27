@@ -1,0 +1,80 @@
+{
+    "mountain": [
+        {
+            "density": 2, "friction": 0, "bounce": 0,
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [ -60,80 , 0,40 , 0,80 ]
+        },
+        {
+            "density": 2, "friction": 0, "bounce": 0,
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [ -512,1184 , -60,80 , 0,80 , 0,1184 ]
+        },
+        {
+            "density": 2, "friction": 0, "bounce": 0,
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [ 0,1184 , 0,320 , 320,320 , 320,1184 ]
+        },
+        {
+            "density": 2, "friction": 0, "bounce": 0,
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [ 320,1184 , 320,240 , 400,240 , 912,1184 ]
+        }
+    ],
+    "slope0": [
+        {
+            "density": 2, "friction": 0, "bounce": 0,
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [ 0,40 , 60,80 , 0,80 ]
+        }
+    ],
+    "slope1": [
+        {
+            "density": 2, "friction": 0, "bounce": 0,
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [ 0,0 , 60,0 , 80,16 , 80,80 , 0,80 ]
+        }
+    ],
+    "slope2": [
+        {
+            "density": 2, "friction": 0, "bounce": 0,
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [ 0,16 , 54,80 , 0,80 ]
+        }
+    ],
+    "slope3": [
+        {
+            "density": 2, "friction": 0, "bounce": 0,
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [ 0,0 , 54,0 , 80,40 , 80,80 , 0,80 ]
+        }
+    ],
+    "slope4": [
+        {
+            "density": 2, "friction": 0, "bounce": 0,
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [ 0,40 , 80,80 , 0,80 ]
+        }
+    ],
+    "lot": [
+        {
+            "density": 2, "friction": 0, "bounce": 0,
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [ 0,0 , 16,0 , 16,16 , 0,16 ]
+        }
+    ],
+    "thomas": [
+        {
+            "density": 2, "friction": 0, "bounce": 0,
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [ 0,0 , 16,0 , 19,13 , 14,16, 2,16, -3,13 ]
+        }
+    ],
+    "square80": [
+        {
+            "density": 2, "friction": 0, "bounce": 0,
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   0, 0  ,  80, 0  ,  80, 80 , 0, 80 ]
+        }
+    ]
+}
