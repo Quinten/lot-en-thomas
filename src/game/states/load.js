@@ -13,7 +13,7 @@ var loadState = {
 
         // add all game assets for preloading here
         game.load.script('webfont', '//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js');
-        game.load.audio('dream', ['assets/audio/dream.mp3', 'assets/audio/dream.ogg']);
+        //game.load.audio('dream', ['assets/audio/dream.mp3', 'assets/audio/dream.ogg']);
         game.load.image('checkers', 'assets/sprites/320x320dddddd.png');
         game.load.image('clouds', 'assets/sprites/clouds.png');
         game.load.image('mountain', 'assets/sprites/mountain.png');
@@ -31,7 +31,7 @@ var loadState = {
 
     create: function () {
 
-        game.load.onLoadStart.add(this.loadStart, this);
+        //game.load.onLoadStart.add(this.loadStart, this);
         game.load.onLoadComplete.add(this.loadComplete, this);
 
         // simple percentage text
@@ -57,6 +57,9 @@ var loadState = {
     },
 
     loadComplete: function () {
+
+        //game.load.onLoadStart.remove(this.loadStart, this);
+        game.load.onLoadComplete.remove(this.loadComplete, this);
 
         // process some things like audio sprites
         //fx = game.add.audio('sfx');

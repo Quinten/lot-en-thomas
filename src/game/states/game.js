@@ -35,9 +35,6 @@ var GameState = function () {
 
     this.create = function () {
 
-        music = game.add.audio('dream');
-        music.loopFull();
-
         game.physics.startSystem(Phaser.Physics.P2JS);
         game.physics.p2.restitution = .2;
         game.physics.p2.gravity.y = 250;
@@ -125,6 +122,26 @@ var GameState = function () {
 
         // wait and start a conversation
         game.time.events.add(Phaser.Timer.SECOND * 4, showNextStartConversation, this);
+
+        game.load.onLoadComplete.add(onLoadMusicComplete, this);
+        startLoadMusic();
+
+    }
+
+    function startLoadMusic() {
+
+        game.load.audio('dream', ['assets/audio/dream.mp3', 'assets/audio/dream.ogg']);
+        game.load.start();
+
+    }
+
+    function onLoadMusicComplete() {
+
+        game.load.onLoadComplete.remove(onLoadMusicComplete, this);
+
+        music = game.add.audio('dream');
+        music.loopFull();
+
     }
 
     function showNextStartConversation() {
