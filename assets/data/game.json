@@ -1,17 +1,32 @@
 {
-    "splash": {
-        "title": "Ergens in Oostenrijk..."
-    },
-    "menu": {
-
-        "title": "Lot en Thomas",
-        "instructions": {
-            "keyboard": "Arrow keys to move\nSpacebar to jump",
-            "touch": "Hold and drag to move\nSecond finger to jump"
-        },
-        "start": {
-            "keyboard": "Hit spacebar",
-            "touch": "Tap anywhere"
-        }
+    "tiles": [
+        { "origX": -120, "origY": -120, "polygon": "slope0", "movable": false},
+        { "origX": -120, "origY": -40, "polygon": "slope1", "movable": true },
+        { "origX": -40, "origY": -40, "polygon": "slope2", "movable": true },
+        { "origX": -40, "origY": 40, "polygon": "slope3", "movable": true },
+        { "origX": 40, "origY": 40, "polygon": "slope4", "movable": true },
+        { "origX": 120, "origY": 120, "polygon": "square80", "movable": false },
+        { "origX": 40, "origY": 120, "polygon": "square80", "movable": true },
+        { "origX": -40, "origY": 120, "polygon": "square80", "movable": true },
+        { "origX": -120, "origY": 120, "polygon": "square80", "movable": true },
+        { "origX": -120, "origY": 40, "polygon": "square80", "movable": true },
+        { "origX": -40, "origY": -120, "polygon": "", "movable": false },
+        { "origX": 40, "origY": -120, "polygon": "", "movable": false },
+        { "origX": 120, "origY": -120, "polygon": "", "movable": false },
+        { "origX": 120, "origY": -40, "polygon": "", "movable": false },
+        { "origX": 120, "origY": 40, "polygon": "", "movable": false }
+    ],
+    "startConversation": [
+        { "character": "thomas", "line": "Lot, ik moet\niets zeggen."},
+        { "character": "thomas", "line": "Ik kom even\nnaar beneden!"},
+        { "character": "lot", "line": "Kijk uit, Thomas!"},
+        { "character": "lot", "line": "Een lawine!"},
+        { "character": "thomas", "line": "Ik ga het toch\npas zeggen als\nik beneden ben."}
+    ],
+    "endMessage": {
+        "none": "Lot en Thomas\ntrouwen!!!\nSave the date\nPinksterweekend\n2017",
+        "hlxzpwmnuo": "Lot en Thomas\ntrouwen!!!\nFeest mee op\nVrijdag 2 juni\n2017",
+        "wdmjnfxsra": "Lot en Thomas\ntrouwen!!!\nFeest mee op\nZaterdag 3 juni\n2017",
+        "prgqwttswo": "Lot en Thomas\ntrouwen!!!\nFeest mee op\nZondag 4 juni\n2017"
     }
 }
