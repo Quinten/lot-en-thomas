@@ -585,8 +585,8 @@ var ambient;
 var audioFallback = (Phaser.Device.isAndroidStockBrowser()) ? true : false;
 window.PhaserGlobal = { disableWebAudio: audioFallback };
 
-var colors = {normalBG: '#9cdeff', normalStroke: '#2c3e50'};
-var tints = {normalBG: 0x9cdeff, normalStroke: 0x2c3e50};
+var colors = {normalBG: '#b4e6ff', normalStroke: '#2c3e50'};
+var tints = {normalBG: 0xb4e6ff, normalStroke: 0x2c3e50};
 
 window.onload = function() {
 
