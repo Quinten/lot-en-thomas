@@ -176,7 +176,7 @@ var GameState = function () {
             if (location.hash.length) {
                 text.text = gameData.endMessage[location.hash.substring(1)];
             } else {
-                text.text = "Lot en Thomas\ntrouwen!!!\nSave the date\nPinksterweekend\n2017";
+                text.text = "Lot en Thomas\ntrouwen!!!\nSave the date\n30/6 - 1 & 2/7\n2017";
             }
             text.fill = '#2c3e50';
             text.visible = true;
