@@ -161,7 +161,7 @@ var GameState = function () {
                 }
                 game.time.events.add(Phaser.Timer.SECOND * 4, showNextStartConversation, this);
             }
-            if ((startConversationIndex == 2) || text === undefined) {
+            if ((startConversationIndex == 4) || text === undefined) {
                 startShuffling();
             }
         }

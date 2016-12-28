@@ -17,16 +17,19 @@
         { "origX": 120, "origY": 40, "polygon": "", "movable": false }
     ],
     "startConversation": [
-        { "character": "thomas", "line": "Lot, ik moet\niets zeggen."},
-        { "character": "thomas", "line": "Ik kom even\nnaar beneden!"},
-        { "character": "lot", "line": "Kijk uit, Thomas!"},
-        { "character": "lot", "line": "Een lawine!"},
-        { "character": "thomas", "line": "Ik ga het toch\npas zeggen als\nik beneden ben."}
+        { "character": "thomas", "line": "Probeer deze\nschuifpuzzel\nop te lossen"},
+        { "character": "thomas", "line": "Klik op de\ntegels om ze \nte verschuiven"},
+        { "character": "lot", "line": "Kijk nu\ngoed naar\nde beginprent"},
+        { "character": "thomas", "line": "Kijk\nheel goed!"},
+        { "character": "lot", "line": "Ze gaan nu\ndoor elkaar"},
+        { "character": "lot", "line": "Veel spelplezier!"}
     ],
     "endMessage": {
-        "none": "Lot en Thomas\ntrouwen!!!\nSave the date\nPinksterweekend\n2017",
-        "hlxzpwmnuo": "Lot en Thomas\ntrouwen!!!\nFeest mee op\nVrijdag 2 juni\n2017",
-        "wdmjnfxsra": "Lot en Thomas\ntrouwen!!!\nFeest mee op\nZaterdag 3 juni\n2017",
-        "prgqwttswo": "Lot en Thomas\ntrouwen!!!\nFeest mee op\nZondag 4 juni\n2017"
+        "none": "Lot en Thomas\ntrouwen!!!\nSave the date\n30/6 - 1 & 2/7\n2017",
+        "hlxzpwmnuo": "Lot en Thomas\ntrouwen!!!\nSave the date\nVrijdag 30 juni\n2017",
+        "wdmjnfxsra": "Lot en Thomas\ntrouwen!!!\nSave the date\nZaterdag 1 juli\n2017",
+        "prgqwttswo": "Lot en Thomas\ntrouwen!!!\nSave the date\nZondag 2 juli\n2017",
+        "xnlmslwrmg": "Lot en Thomas\ntrouwen!!!\nSave the date\n30/6 & 1/7\n2017",
+        "sofgmtvezq": "Lot en Thomas\ntrouwen!!!\nSave the date\n1/7 & 2/7\n2017"
     }
 }
